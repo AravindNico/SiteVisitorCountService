@@ -18,9 +18,9 @@ Metric logging and reporting service that sums metrics by time window for the mo
 ### Configurable Params
     http://<IP>:<PORT>/sitemetrics/v1/metrics/<SERVICE>/sum<URL QUERY PARAM>
 
-1.IP
-2.PORT 
-3.SERVICE
-4.URL PARAM - time parameter take in number of minutes (optional parameter).
+    1.IP
+    2.PORT 
+    3.SERVICE
+    4.URL PARAM - time parameter take in number of minutes (optional parameter).
 
 If Url Param "time" is not passed , default value of 1 minute will be considered.
