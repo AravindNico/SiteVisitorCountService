@@ -9,6 +9,20 @@ Metric logging and reporting service that sums metrics by time window for the mo
 
 ## Test Data Posting(post)
     python3 test.py
+
+## API to post active user count
+
+    http://localhost:3011/sitemetrics/v1/metrics/site1
+    {
+        "value": 4
+    }
+
+### Configurable Params
+    http://<IP>:<PORT>/sitemetrics/v1/metrics/<SERVICE>
+
+    1.IP
+    2.PORT 
+    3.SERVICE - Provide any service name for logging active users count
     
 ## To check the metrics(get)
 1.Open browser/postman and provice the get url
